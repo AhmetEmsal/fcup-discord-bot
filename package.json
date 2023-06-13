@@ -1,0 +1,23 @@
+{
+  "name": "fcupdiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/discord_bot.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/discord_bot.ts"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
